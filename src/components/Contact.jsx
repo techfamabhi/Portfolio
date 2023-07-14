@@ -15,34 +15,26 @@ const Contact = () => {
         </div>
 
         <div className=" flex justify-center items-center">
-          <form
-            action="https://getform.io/f/33ae94e4-dcfb-435b-865c-2ae7d05d1f1a"
-            method="POST"
-            className=" flex flex-col w-full md:w-1/2"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your name"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            />
-            <input
-              type="text"
-              name="email"
-              placeholder="Enter your email"
-              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            />
-            <textarea
-              name="message"
-              placeholder="Enter your message"
-              rows="10"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-            ></textarea>
-
-            <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">
-              Let's talk
-            </button>
-          </form>
+        <form action="https://getform.io/f/fb692458-f269-42f2-83a9-4a521c02e758" method="POST">
+    <input type="text" name="name"/>
+    <input type="email" name="email"/>
+    <input type="text" name="message"/>
+    
+    <input type="hidden" name="_gotcha" style={{  display:"none" }} />
+    
+    <input type="checkbox" name="subscribe" value="yes" checked/>
+    <input type="hidden" name="subscribe" value="no"/>
+    
+    <input type="radio" name="gender" value="male" checked/>
+    <input type="radio" name="gender" value="female"/>
+    <input type="radio" name="gender" value="other"/>
+    
+    <select name="work-experience">
+        <option value="one-year">0-1 years</option>
+        <option value="one-five-years">1-5 years</option>
+    </select>
+    <button type="submit">Send</button>
+</form>
         </div>
       </div>
     </div>
