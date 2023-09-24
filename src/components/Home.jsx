@@ -18,7 +18,7 @@ const Home = () => {
             Hello, I'm Abhishek Gouda, I had 1 Year Experience in Web Development and I am passionate about Web Developer
           </p>
 
-          <div>
+          <div className="">
             <Link
               to="portfolio"
               smooth

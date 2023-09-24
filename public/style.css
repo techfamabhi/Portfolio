@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    .portfolio_media {
+      margin-top: 900px;
+   
+      color: #fff;
+    }
+    .experience_Section{
+        margin-top: 900px;
+    }
+    .portfolio_small_text{
+        color: #000;
+        
+    }
+   .portfolio_card_color{
+        background-color: #000;
+        color: white;
+   }
+   #portfolio_card_color{
+    color: #fff;
+    background-color: #000;
+    padding-top: 50px;
+   }
+  }
