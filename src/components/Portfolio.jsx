@@ -15,7 +15,7 @@ const Portfolio = () => {
     {
       id: 8,
       src: Function_Hall,
-      name: "Function Hall ",
+      name: "Function Hall Project",
       title: "Under In Process"
     },
     {
